@@ -10,15 +10,4 @@ $route1 = new Route('Rafah' , 'Azahra' , 100);
 $route2 = new Route('Gaza' , 'Azahra' , 50);
 
 $bus = new Bus(102);
-$bus->setDriver($dirver);
-$bus->addRoute($route1);
-$bus->addRoute($route2);
-$bus->setDoors(2);
-$bus->setColor('red');
-$bus->setNumberOfPassengers(50);
-$bus->setMaximumSpeed(100);
-echo $bus->move();
 
-echo '<pre>';
-print_r($bus);
-echo '<pre>';
