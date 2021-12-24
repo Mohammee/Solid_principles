@@ -1,7 +1,6 @@
 <?php
 namespace SOLID\SRP;
 
-
 use http\Encoding\Stream\Inflate;
 
 class Bus
@@ -160,7 +159,7 @@ class Bus
      */
     public function addRoute(Route ...$routes): void
     {
-        $this->routes = array_merge($this->routes ?? [] , $routes);
+        $this->routes = array_merge($this->routes ?? [], $routes);
     }
 
     /**
@@ -168,7 +167,7 @@ class Bus
      * @param string $to
      * @return string
      */
-    public function dirveToRoute(string $from , string $to) : string
+    public function dirveToRoute(string $from, string $to) : string
     {
         return "The Bus moving form {$from} to {$to}.";
     }
@@ -187,13 +186,11 @@ class Bus
     public function move() : string
     {
         $output = '';
-        foreach($this->routes as $route){
-           $output .= "<p>The bus move from {$route->getSource()} to {$route->getDestination()}
+        foreach ($this->routes as $route) {
+            $output .= "<p>The bus move from {$route->getSource()} to {$route->getDestination()}
                   At maximum speed {$this->getMaximumSpeed()}
                   by dirver {$this->getDriver()->getName()}</p>";
         }
         return $output;
     }
-
-
 }

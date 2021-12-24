@@ -1,7 +1,5 @@
 <?php
-
 namespace SOLID\SRP;
-
 
 class Driver
 {
@@ -104,6 +102,4 @@ class Driver
     {
         $this->address = $address;
     }
-
-
 }

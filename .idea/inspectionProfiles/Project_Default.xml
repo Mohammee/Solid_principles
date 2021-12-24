@@ -303,6 +303,9 @@
     <inspection_tool class="PhpAssignmentInConditionInspection" enabled="false" level="INFORMATION" enabled_by_default="false" />
     <inspection_tool class="PhpAssignmentReplaceableWithOperatorAssignmentInspection" enabled="false" level="INFORMATION" enabled_by_default="false" />
     <inspection_tool class="PhpAssignmentReplaceableWithPrefixExpressionInspection" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="PhpCSValidationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="EXTENSIONS" value="php,js,css,inc" />
+    </inspection_tool>
     <inspection_tool class="PhpClassImplementsSolelyTraversableInspection" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="PhpClosureCanBeConvertedToShortArrowFunctionInspection" enabled="false" level="INFORMATION" enabled_by_default="false" />
     <inspection_tool class="PhpComposerDuplicatedRequirementInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />

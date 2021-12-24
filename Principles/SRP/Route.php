@@ -1,7 +1,6 @@
 <?php
 namespace SOLID\SRP;
 
-
 class Route
 {
 
@@ -80,5 +79,4 @@ class Route
     {
         $this->distance = $distance;
     }
-
 }

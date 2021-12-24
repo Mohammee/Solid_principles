@@ -1,7 +1,10 @@
 {
   "autoload": {
     "psr-4": {
-      "Solid\\" : "Principles/"
+      "SOLID\\" : "Principles/"
     }
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "3.*"
   }
 }
