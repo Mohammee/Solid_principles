@@ -1,8 +1,6 @@
 <?php
 namespace SOLID\SRP;
 
-use http\Encoding\Stream\Inflate;
-
 class Bus
 {
 
@@ -39,7 +37,7 @@ class Bus
     /**
      * @var array
      */
-    private $routes;
+    private $routes = [];
 
     /**
      * Bus constructor.
@@ -179,6 +177,7 @@ class Bus
     {
         return "The bus do maintenance now.";
     }
+
 
     /**
      * @return string
